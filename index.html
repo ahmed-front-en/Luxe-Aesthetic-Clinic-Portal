@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'ESTHÉTIQUE DUBAÏ | The Art of Refinement</title>
+  <meta name="description" content="Award-winning specialists in aesthetic medicine. Experience bespoke beauty treatments at our DIFC Dubai clinic.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <a href="#main-content" class="sr-only" style="position:absolute;left:16px;top:16px;background:var(--color-primary-container);color:var(--color-on-primary);padding:8px 16px;z-index:100;border-radius:var(--radius-default);transform:translateY(-200%);transition:transform 0.3s ease;">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container site-header__inner">
+      <a href="#" class="site-header__logo" aria-label="L'ESTHÉTIQUE Home">L'ESTHÉTIQUE</a>
+
+      <nav class="site-header__nav" aria-label="Main navigation">
+        <a href="#treatments" class="site-header__nav-link">Treatments</a>
+        <a href="#philosophy" class="site-header__nav-link">Philosophy</a>
+        <a href="#" class="site-header__nav-link">Specialists</a>
+        <a href="#footer" class="site-header__nav-link">Contact</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <a href="#booking" class="btn-primary">Book</a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav class="mobile-menu__links" aria-label="Mobile navigation">
+      <a href="#treatments" class="mobile-menu__link">Treatments</a>
+      <a href="#philosophy" class="mobile-menu__link">Philosophy</a>
+      <a href="#" class="mobile-menu__link">Specialists</a>
+      <a href="#footer" class="mobile-menu__link">Contact</a>
+    </nav>
+    <a href="#booking" class="btn-primary mobile-menu__cta">Book Now</a>
+  </div>
+
+  <main id="main-content">
+
+    <section class="hero" aria-label="Hero">
+      <div class="hero__grid">
+        <div class="hero__media reveal-left">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxWwIq7H0_jRtis50EB2enLCKLN2Onrm6WNdjGNAYGE3JtpdW9u-_9kO4t1C0qEgm4qO_Y0i3W6afYEoFNJ0sV89f75Jr1pagc_SABxpT3RoOi90I4IVm7Xd-7d4WxyRdiYxdKfX4NRiXoJNwJQvu-TCRiRPbKjgyJ4l_O1sigqXev9HhapnHSjctWCkgPB0sp3m6a0SjoRM6tia6E451FzhIM2VhgFu19YXRaqrdMszDSo1hLEchAXWpwZsRLTq0JZX9qPy6LNuI" alt="Luxury aesthetic clinic treatment room" loading="eager">
+          <span class="hero__badge">
+            <span class="material-symbols-outlined icon--sm">star</span>
+            Rated 5.0 — Dubai
+          </span>
+        </div>
+        <div class="hero__content">
+          <span class="hero__tag reveal">Award-Winning Specialists</span>
+          <h1 class="hero__title display-lg reveal">The Art of<br>Refinement</h1>
+          <p class="hero__subtitle body-lg reveal">Where medical precision meets editorial elegance. Our Dubai clinic offers bespoke aesthetic treatments curated for the discerning few.</p>
+          <div class="hero__actions reveal">
+            <a href="#booking" class="btn-primary">Book Consultation</a>
+            <a href="#treatments" class="btn-outline">View Protocols</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar reveal" aria-label="Trust indicators">
+      <div class="container">
+        <p class="trust-bar__label label-sm">Recognized By</p>
+        <div class="trust-bar__logos">
+          <span class="trust-bar__logo">HARPER'S</span>
+          <span class="trust-bar__logo">VOGUE</span>
+          <span class="trust-bar__logo">TATLER</span>
+          <span class="trust-bar__logo">FORBES</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="treatments section-padding" id="treatments" aria-label="Signature treatments">
+      <div class="container">
+        <div class="treatments__header reveal">
+          <div>
+            <span class="treatments__header-label">Curation</span>
+            <h2 class="treatments__header-title headline-lg">Signature Protocols</h2>
+          </div>
+          <a href="#" class="treatments__view-all">
+            View All Treatments
+            <span class="material-symbols-outlined icon--sm">arrow_forward</span>
+          </a>
+        </div>
+
+        <div class="treatments__grid">
+          <article class="treatment-card treatment-card--large reveal reveal-delay-1">
+            <a href="#" class="treatment-card" aria-label="Lumière Glow treatment details">
+              <div class="treatment-card__image-wrap">
+                <img class="treatment-card__image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9eG2zmdGKOuRb-BUNb3_RdqP69hmyjpN4tF9ZwaJn80n9f0tlqDMrLj_N0mrKfrm33Se1dK-zqtYEKAQZ6KOhqFxkCEG3RJuSy5INEJtAW7DDKcW3tinlzCOiTd4PdMRdgCRm0s9iXmZjPOHN87_f7szMInWCYRWqX2NTq49gOhEcJX5LHDohr0T_oZCDKLAsHgPfpCYmobL4CxZDUTl4FdFJnAlTgsgDhGuGeVU_na5b2GToqDj2KzCsQDxUInItJyq-uxQSv58" alt="Lumière Glow facial treatment with soft natural lighting" loading="lazy">
+              </div>
+              <h3 class="treatment-card__title">Lumière Glow</h3>
+              <p class="treatment-card__description">An intensive cellular renewal protocol designed to restore profound luminosity to fatigued skin.</p>
+              <span class="treatment-card__action">
+                Explore
+                <span class="material-symbols-outlined icon--sm">arrow_forward</span>
+              </span>
+            </a>
+          </article>
+
+          <div class="treatment-card--small reveal reveal-delay-3">
+            <article class="treatment-card">
+              <a href="#" aria-label="Sculptural Facelift treatment details">
+                <div class="treatment-card__image-wrap">
+                  <img class="treatment-card__image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqLi19OkO-FadCTXcpH_4DkbAUlvMWijFxbtwb0Rw2vRS1mB0xfZQysKwZIDgrsS1ZDZIlfVQ3RuxCB7lzibACtGxZijBLgGUyYn5SJpYVrS6FAqWodfbm5edRprA7QpUtn_qINffej_6RlOKaiqYBL_uZaaE6gsr57VxihRI6lw_jywAVDDQ4qGEivMymNO_gwMBdB7nUs2o1J8MqqHcSr4T1x2dpyOQHs3z8JpNM8DwMqDzvurFRx-iAYDoZ8ivYXj-41ylO4M4" alt="Sculptural Facelift non-invasive contouring treatment" loading="lazy">
+                </div>
+                <h3 class="treatment-card__title">Sculptural Facelift</h3>
+                <p class="treatment-card__description">Non-invasive contouring utilizing advanced micro-current technology to redefine structural integrity.</p>
+                <span class="treatment-card__action">
+                  Explore
+                  <span class="material-symbols-outlined icon--sm">arrow_forward</span>
+                </span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="philosophy" id="philosophy" aria-label="Our philosophy">
+      <div class="philosophy__background">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2-HMFfmuVrPH_ecAJ2aJ3z4rnjXYMYxd20z5konWtmUuxU0SWXTPJFd1K6Talksq_59BMEh6bOF7KuDCC54Pg-dIIEi7EqVOAJxXiQxXWnnrl0pTIUJXb9Cuwu4qaAoyGzSW4qel3X6yjf1oB8StyYHWfYVvHZujF8ZGID7vAHBgD2aFcEHwN1cT06-nW5qMz3bmxaNKK-qA13yJQ2W3SQMhxYSPRhGbw5yI-_H-VeJWNGVGso5-mXEuTW9Hr4BKozQXN6gO48lw" alt="Luxury spa treatment room with warm ambient lighting" loading="lazy">
+      </div>
+      <div class="philosophy__overlay"></div>
+      <div class="philosophy__content reveal">
+        <span class="philosophy__label label-sm">The Philosophy</span>
+        <h2 class="philosophy__title display-lg">Beauty is not altered.<br>It is revealed.</h2>
+        <p class="philosophy__text body-lg">We reject the artificial in favor of the authentic. Our approach marries cutting-edge medical science with the refined touch of artisanal care, creating results that whisper rather than shout.</p>
+      </div>
+    </section>
+
+    <section class="booking section-padding" id="booking" aria-label="Book a consultation">
+      <div class="container">
+        <div class="booking__inner reveal">
+          <div class="booking__header">
+            <h2 class="booking__header-title headline-lg">Request a Consultation</h2>
+            <p class="booking__header-description body-md">Begin your journey to refinement.</p>
+          </div>
+
+          <div id="booking-stepper">
+
+            <div class="stepper" role="tablist" aria-label="Booking progress">
+              <div class="stepper__line" aria-hidden="true"></div>
+
+              <div class="stepper__step" role="presentation">
+                <div class="stepper__circle stepper__circle--active" aria-hidden="true">1</div>
+                <span class="stepper__label stepper__label--active">Treatment</span>
+              </div>
+
+              <div class="stepper__step" role="presentation">
+                <div class="stepper__circle stepper__circle--pending" aria-hidden="true">2</div>
+                <span class="stepper__label stepper__label--pending">Specialist</span>
+              </div>
+
+              <div class="stepper__step" role="presentation">
+                <div class="stepper__circle stepper__circle--pending" aria-hidden="true">3</div>
+                <span class="stepper__label stepper__label--pending">Date</span>
+              </div>
+
+              <div class="stepper__step" role="presentation">
+                <div class="stepper__circle stepper__circle--pending" aria-hidden="true">4</div>
+                <span class="stepper__label stepper__label--pending">Details</span>
+              </div>
+            </div>
+
+            <form class="booking-form" novalidate>
+              <div class="step-panel step-panel--active" id="step-1" role="tabpanel">
+                <h3 class="step-panel__title">Select Primary Interest</h3>
+                <div class="radio-group">
+                  <label class="radio-card radio-card--selected">
+                    <div class="radio-card__left">
+                      <input type="radio" name="treatment" value="aesthetics" class="radio-card__input" checked required>
+                      <span class="radio-card__label">Advanced Aesthetics</span>
+                    </div>
+                    <span class="radio-card__duration">45 MIN</span>
+                  </label>
+                  <label class="radio-card">
+                    <div class="radio-card__left">
+                      <input type="radio" name="treatment" value="rejuvenation" class="radio-card__input" required>
+                      <span class="radio-card__label">Cellular Rejuvenation</span>
+                    </div>
+                    <span class="radio-card__duration">60 MIN</span>
+                  </label>
+                  <label class="radio-card">
+                    <div class="radio-card__left">
+                      <input type="radio" name="treatment" value="consultation" class="radio-card__input" required>
+                      <span class="radio-card__label">Consultation &amp; Assessment</span>
+                    </div>
+                    <span class="radio-card__duration">30 MIN</span>
+                  </label>
+                </div>
+                <div class="step-actions">
+                  <button type="button" class="btn-primary step-next">Continue to Specialist</button>
+                </div>
+              </div>
+
+              <div class="step-panel" id="step-2" role="tabpanel">
+                <h3 class="step-panel__title">Select Specialist</h3>
+                <div class="radio-group">
+                  <label class="radio-card">
+                    <div class="radio-card__left">
+                      <input type="radio" name="specialist" value="senior" class="radio-card__input" required>
+                      <span class="radio-card__label">Senior Aesthetician</span>
+                    </div>
+                    <span class="radio-card__duration">Lead</span>
+                  </label>
+                  <label class="radio-card">
+                    <div class="radio-card__left">
+                      <input type="radio" name="specialist" value="medical" class="radio-card__input" required>
+                      <span class="radio-card__label">Medical Director</span>
+                    </div>
+                    <span class="radio-card__duration">Consultation</span>
+                  </label>
+                </div>
+                <div class="step-actions" style="display:flex; gap: var(--space-unit-md); justify-content: flex-end;">
+                  <button type="button" class="btn-outline step-prev">Back</button>
+                  <button type="button" class="btn-primary step-next">Continue to Date</button>
+                </div>
+              </div>
+
+              <div class="step-panel" id="step-3" role="tabpanel">
+                <h3 class="step-panel__title">Preferred Date</h3>
+                <div class="radio-group">
+                  <label class="radio-card">
+                    <div class="radio-card__left">
+                      <input type="radio" name="date" value="this-week" class="radio-card__input" required>
+                      <span class="radio-card__label">This Week</span>
+                    </div>
+                    <span class="radio-card__duration">Priority</span>
+                  </label>
+                  <label class="radio-card">
+                    <div class="radio-card__left">
+                      <input type="radio" name="date" value="next-week" class="radio-card__input" required>
+                      <span class="radio-card__label">Next Week</span>
+                    </div>
+                    <span class="radio-card__duration">Standard</span>
+                  </label>
+                  <label class="radio-card">
+                    <div class="radio-card__left">
+                      <input type="radio" name="date" value="flexible" class="radio-card__input" required>
+                      <span class="radio-card__label">Flexible</span>
+                    </div>
+                    <span class="radio-card__duration">Anytime</span>
+                  </label>
+                </div>
+                <div class="step-actions" style="display:flex; gap: var(--space-unit-md); justify-content: flex-end;">
+                  <button type="button" class="btn-outline step-prev">Back</button>
+                  <button type="button" class="btn-primary step-next">Continue to Details</button>
+                </div>
+              </div>
+
+              <div class="step-panel" id="step-4" role="tabpanel">
+                <div id="booking-summary"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">L'ESTHÉTIQUE</a>
+          <p class="footer__description">Elevating aesthetic medicine to an art form through quiet luxury and profound results.</p>
+        </div>
+
+        <div>
+          <h4 class="footer__column-title">Navigation</h4>
+          <nav class="footer__links" aria-label="Footer navigation">
+            <a href="#treatments" class="footer__link">Treatments</a>
+            <a href="#philosophy" class="footer__link">Philosophy</a>
+            <a href="#" class="footer__link">Specialists</a>
+          </nav>
+        </div>
+
+        <div>
+          <h4 class="footer__column-title">Connect</h4>
+          <nav class="footer__links" aria-label="Social links">
+            <a href="#" class="footer__link">Journal</a>
+            <a href="#" class="footer__link">Contact</a>
+            <a href="#" class="footer__link">Privacy</a>
+          </nav>
+        </div>
+
+        <div>
+          <h4 class="footer__column-title">Location</h4>
+          <address class="footer__address">
+            Dubai International Financial Centre (DIFC)<br>
+            Gate Village, Building 11<br>
+            Dubai, UAE
+          </address>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2024 L'ESTHÉTIQUE DUBAÏ. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="Share">
+            <span class="material-symbols-outlined">share</span>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Email">
+            <span class="material-symbols-outlined">mail</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>
